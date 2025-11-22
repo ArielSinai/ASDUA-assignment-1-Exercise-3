@@ -1,9 +1,11 @@
 # ASDUA-assignment-1-Exercise-3
-# ArielLang Syntax Highlighting Extension
+# ArielLang VS Code Extension
 
-This is a  small VS Code extension that adds syntax highlighting for a toy language called **ArielLang**.
+This is a very small VS Code extension that adds **syntax highlighting** and **snippets** for a toy language called **ArielLang**.
 
 ## Features
+
+### 1. Language Support
 
 - Recognizes files with the `.ariel` extension.
 - Highlights:
@@ -24,3 +26,4 @@ func hello {
         return "No"
     }
 }
+

@@ -10,21 +10,28 @@
   "categories": ["Programming Languages"],
   "main": "./extension.js",
   "contributes": {
-    "languages": [
-      {
-        "id": "ariellang",
-        "aliases": ["ArielLang", "ariellang"],
-        "extensions": [".ariel"],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "ariellang",
-        "scopeName": "source.ariel",
-        "path": "./syntaxes/ariellang.tmLanguage.json"
-      }
-    ]
-  }
+  "languages": [
+    {
+      "id": "ariellang",
+      "aliases": ["ArielLang", "ariellang"],
+      "extensions": [".ariel"],
+      "configuration": "./language-configuration.json"
+    }
+  ],
+  "grammars": [
+    {
+      "language": "ariellang",
+      "scopeName": "source.ariel",
+      "path": "./syntaxes/ariellang.tmLanguage.json"
+    }
+  ],
+  "snippets": [
+    {
+      "language": "ariellang",
+      "path": "./snippets/ariel-snippets.json"
+    }
+  ]
+}
+
 }
 
