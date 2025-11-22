@@ -1,0 +1,30 @@
+{
+  "name": "ariel-lang-extension",
+  "displayName": "ArielLang Syntax Highlighting",
+  "description": "Very simple syntax highlighting for a toy language called ArielLang.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Programming Languages"],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "ariellang",
+        "aliases": ["ArielLang", "ariellang"],
+        "extensions": [".ariel"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ariellang",
+        "scopeName": "source.ariel",
+        "path": "./syntaxes/ariellang.tmLanguage.json"
+      }
+    ]
+  }
+}
+

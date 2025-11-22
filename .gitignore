@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Node modules
+node_modules/
+
+# VS Code extension test files
+.vscode-test/
+
+# Compiled VSIX packages
+*.vsix
+
+# OS junk
+.DS_Store
+Thumbs.db
